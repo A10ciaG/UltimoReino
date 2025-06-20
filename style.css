@@ -267,6 +267,9 @@ p.italic {
     .main-container .content .block.center .text-container {
         width: 100%;
     }
+    .main-container .content .horizontal-separator {
+        margin: 8em 0;
+    }
 }
 
 
