@@ -211,6 +211,10 @@ p.italic {
 }
 
 @media (max-width: 900px) {
+    
+    .main-container {
+        scroll-snap-type: y proximity;
+    }
     .mobile {
         display: block !important;
     }
