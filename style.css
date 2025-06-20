@@ -213,7 +213,7 @@ p.italic {
 @media (max-width: 900px) {
     
     .main-container {
-        scroll-snap-type: y proximity;
+        scroll-snap-type: unset;
     }
     .mobile {
         display: block !important;
@@ -275,7 +275,7 @@ p.italic {
         width: 100%;
     }
     .main-container .content .horizontal-separator {
-        margin: 8em 0;
+        margin: 2em 0;
     }
 }
 
