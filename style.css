@@ -41,7 +41,7 @@ html {
     color: #ffcc4bc9;
     padding: 10%;
     margin-bottom: 15rem;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
     min-height: 100vh;
 }
 .main-container .title-container h1 {
@@ -98,7 +98,7 @@ html {
     width: 80%;
     min-height: 100vh;
     overflow: hidden;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
     align-items: center;
     opacity: 0;
     transition: opacity 2s ease;
