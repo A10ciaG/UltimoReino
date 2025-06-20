@@ -221,7 +221,7 @@ p.italic {
         background: unset;
         display: flex;
         flex-direction: column;
-        margin-top: 40%;
+        margin-top: 30%;
     }
     .main-container .title-container h1.remove-blur {
         font-size: 16vw;
