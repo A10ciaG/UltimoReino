@@ -291,4 +291,7 @@ p.italic {
     .main-container .title-container .quote {
         margin: 10%;
     }
+    .main-container .title-container {
+        margin-bottom: 5%;
+    }
 }
