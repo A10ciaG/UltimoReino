@@ -41,7 +41,7 @@ html {
     color: #ffcc4bc9;
     padding: 10%;
     margin-bottom: 15rem;
-    scroll-snap-align: start;
+    scroll-snap-align: end;
     min-height: 100vh;
 }
 .main-container .title-container h1 {
@@ -98,7 +98,7 @@ html {
     width: 80%;
     min-height: 100vh;
     overflow: hidden;
-    scroll-snap-align: start;
+    scroll-snap-align: end;
     align-items: center;
     opacity: 0;
     transition: opacity 2s ease;
@@ -197,7 +197,7 @@ p.italic {
         background-size: cover;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        margin-top: 40%;
     }
     .main-container .content {
         margin: 0 5%;
@@ -221,7 +221,7 @@ p.italic {
         background: unset;
         display: flex;
         flex-direction: column;
-        margin-top: 30%;
+        margin-top: 40%;
     }
     .main-container .title-container h1.remove-blur {
         font-size: 16vw;
@@ -254,6 +254,9 @@ p.italic {
     }
     .main-container .content .block .separator {
         display: none;
+    }
+    #venta {
+        padding-bottom: 50% !important;
     }
     #venta img {
         margin: unset !important;
